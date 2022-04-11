@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS `tasks`;
-CREATE TABLE `tasks` (
+DROP TABLE IF EXISTS `admlat_tasks`;
+CREATE TABLE `admlat_tasks` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
   `task` varchar(255) NOT NULL,
   `completed` tinyint(1) NOT NULL DEFAULT '0',
